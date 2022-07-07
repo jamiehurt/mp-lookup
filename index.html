@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/styles.css">
+	<title>Who's My MP?</title>
+</head>
+
+<body>
+	<div class="mainContainer">
+		<header>
+			<div id="header">
+				<div id="title">WHO'S MY MP?</div>
+			</div>
+		</header>
+		<div id="searchBarContainer">
+			<div id="searchBarWrap">
+				<div id="searchTitle">Search for an MP by entering a postcode below...</div>
+				<input id="mainSearch" type="text" placeholder="Postcode..." autofocus />
+				<button onclick="mainSearch()" id="mainButton" type="search">Search</button>
+			</div>
+		</div>
+		<div id="membersContainer">
+			<div id="membersWrap"></div>
+		</div>
+		<div id="membersContactHeaderWrap"></div>
+		<div id="membersContact">
+			<div class="pWrap">
+				<div class="pContent">
+					<h2 class="pH2">Parliamentary</h2>
+					<h3 class="pInstruction">Contact the Member at their Westminster address</h3>
+					<h3 class="westminsterAddress">House of Commons<br>London<br>SW1A 0AA</h3>
+					<div class="rightColumn">
+						<h3 id="westminsterPhone"> Phone:
+						</h3>
+						<h3 id="westminsterEmail"> Email:
+						</h3>
+					</div>
+				</div>
+			</div>
+			<div class="cWrap">
+				<div id="cContent">
+					<h2 class="cH2">Constituency</h2>
+					<h3 class="cInstruction">Contact the Member at their constituency address</h3>
+					<h3 id="constituencyAddress"></h3>
+					<div class="rightColumn">
+						<h3 id="constituencyPhone"> Phone:
+						</h3>
+						<h3 id="constituencyEmail"> Email:
+						</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="latestElectionContainer">
+			<div id="latestElection">
+				<div id="googleChart"></div>
+			</div>
+		</div>
+		<div id=votingRecordsHeaderDivider>
+			<h1 id="votingHeader">Voting Record</h1>
+		</div>
+		<div id="votingRecordsContainer">
+			<div id="votingRecordsContent">
+				<div id="votingRecordsHeader">
+					<button onclick=" " id="votingPageButtonPrevious">Previous Page</button>
+					<button onclick=" " id="votingPageButtonNext">Next Page</button>
+				</div>
+				<div id="divisionCards"></div>
+			</div>
+		</div>
+	</div>
+	<script src="js/script.js"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+</body>
+
+</html>

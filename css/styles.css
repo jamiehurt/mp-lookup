@@ -1,0 +1,370 @@
+input:focus::placeholder {
+  color: transparent;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#header {
+  height: 10em;
+  width: 100%;
+  background-color: #0e1531;
+  display: flex;
+  border-bottom: 5px solid grey;
+}
+
+#title {
+  color: white;
+  font-size: 3em;
+  font-weight: bolder;
+  text-shadow: 0 0 1px black, 0 0 1px black, 0 0 1px black, 0 0 1px black;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#searchTitle {
+  font-size: 2em;
+  height: 5em;
+  text-align: center;
+}
+
+#searchBarContainer {
+  width: 100%;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#searchBarWrap {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+}
+
+#searchBarWrap input {
+  font-size: 40px;
+  width: 70%;
+  padding: 8px;
+  margin: 0 auto;
+  border-width: 1px;
+}
+
+#searchBarWrap button {
+  font-size: 40px;
+  margin: 0 auto;
+  width: 27%;
+  padding: 8px;
+  border-width: 1px;
+}
+
+#membersContainer {
+  background-color: #467664;
+}
+
+#membersWrap {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 50%;
+  margin: 0 auto;
+  color: white;
+}
+
+h1.membersName {
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding-bottom: 0.1em;
+  flex-basis: 100%;
+}
+
+img.portrait {
+  padding: 1em;
+  background-color: #5a8072;
+  margin: 1.5em;
+  margin-left: 0em;
+}
+
+div.membersInfoCard {
+  padding-left: 1em;
+}
+
+h2.constituencyInfo {
+  padding-bottom: 1em;
+  font-weight: lighter;
+}
+
+
+h3.membersParty {
+  margin: 1em auto;
+  white-space: pre-wrap;
+}
+
+h3.membersSince {
+  margin: 1em auto;
+  white-space: pre-wrap;
+}
+
+h1.contactHeader {
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1px dotted #cbc9cd;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin: 0 auto;
+}
+
+#membersContact {
+  width: 100%;
+  display: none;
+  margin-bottom: 1em;
+  padding-bottom: 2em;
+}
+
+div.pWrap {
+  float: left;
+  width: 50%;
+}
+
+div.cWrap {
+  float: left;
+  width: 50%;
+}
+
+div.pContent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 75%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background-color: #f8f6fc;
+  margin-top: 2em;
+}
+
+h2.pH2 {
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding: 0.5em;
+  flex-basis: 100%;
+  text-align: center;
+  margin: auto 0;
+}
+
+h3.pInstruction {
+  margin: 0 auto;
+  border-bottom: 1px dotted rgb(126, 118, 118);
+  text-align: center;
+  width: 100%;
+  padding-top: 0.5em;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+h3.westminsterAddress {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+div.rightColumn {
+  flex-direction: column;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+h3#westminsterPhone {
+  margin: 0 auto;
+  padding-bottom: 0.5em;
+}
+
+h3#westminsterEmail {
+  margin: 0 auto;
+}
+
+div#cContent {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 75%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  background-color: #f8f6fc;
+  margin-top: 2em;
+}
+
+h2.cH2 {
+  font-weight: bolder;
+  font-size: 2.5em;
+  padding: 0.5em;
+  flex-basis: 100%;
+  text-align: center;
+  margin: auto 0;
+}
+
+h3.cInstruction {
+  margin: 0 auto;
+  border-bottom: 1px dotted rgb(126, 118, 118);
+  text-align: center;
+  width: 100%;
+  padding-top: 0.5em;
+  font-size: 1.1em;
+  margin-bottom: 1em;
+}
+
+h3#constituencyAddress {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+h3.constituencyPhone {
+  margin: 0 auto;
+  padding-bottom: 0.5em;
+}
+
+h3.constituencyEmail {
+  margin: 0 auto;
+}
+
+h1#votingHeader {
+  display: none;
+  font-size: 2.5em;
+  text-align: center;
+  border-bottom: 1px dotted #cbc9cd;
+  padding-bottom: 1em;
+  padding-top: 1em;
+  margin: 0 auto;
+}
+
+div#latestElectionContainer {
+  width: 100%;
+  display: none;
+  margin: 0 auto;
+  background-color: #ebe9e8;
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+div#latestElection {
+  width: 50%;
+  margin: 0 auto;
+}
+
+div#googleChart {
+  width: 100%;
+  height: 800px;
+  margin: 0 auto;
+}
+
+div#votingHeader {
+  display: none;
+}
+
+div#votingRecordsHeader {
+  display: none;
+  margin: 20px;
+  width: 100%;
+  justify-content: center;
+}
+
+div#votingRecordsContent {
+  width: 40%;
+  margin: 0 auto;
+}
+
+div#votingRecordsContainer {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div#divisionCards {
+  display: inline-block;
+  width: 100%;
+  margin: 20px;
+  margin-top: 0px;
+}
+
+button#votingPageButtonPrevious {
+  font-size: 20px;
+  margin-right: 10px;
+  width: 30%;
+  padding: 8px;
+  border-width: 1px;
+}
+
+button#votingPageButtonNext {
+  font-size: 20px;
+  margin-left: 10px;
+  width: 30%;
+  padding: 8px;
+  border-width: 1px;
+}
+
+div.cardContent {
+  margin: 15px;
+  margin-top: 0px;
+  background-color: rgba(248,246,252,.75);
+  padding: 20px;
+  border: 1px solid grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h3.cardHeading {
+  margin: 0 auto;
+  border-bottom: 3px solid grey;
+  width: 100%;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+div.cardDivisionInfo {
+  text-align: center;
+  width: 75%;
+  border-top: 1px solid gray;
+  padding-top: 15px;
+}
+
+div.cardAyesWrap {
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+}
+
+div.cardAyesValue {
+  font-weight: bolder;
+  font-size: 35px;
+  color: #26984d
+}
+
+div.cardNoesWrap {
+  width: 50%;
+  text-align: center;
+  font-size: 25px;
+}
+
+div.cardNoes {
+  border-left: 1px solid gray;
+}
+
+div.cardNoesValue {
+  font-weight: bolder;
+  font-size: 35px;
+  color: #cc4645;
+}
+
+div.cardVoteHistory {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  border-top: 3px solid grey;
+  margin-top: 15px;
+}

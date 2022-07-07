@@ -1,0 +1,38 @@
+A webpage which allows a user lookup who their MP is via a postcode
+
+
+Developed for my final year university project 2021 using:
+
+HTML
+CSS
+Javascript
+
+----
+
+Features:
+
+- Lookup MP's information using a postcode api call
+
+- Displays a portrait of the found MP
+
+- Displays Party information and First elected date
+
+- Displays the MP's Parliamentary and Constituency address and contact information
+
+- Uses google charts api to show a horizontal bar chart displaying the previous election vote breakdown by party
+
+- Shows the voting record of the MP based on the most recent Divisions
+
+----
+
+Plans:
+
+- Implement the previous and next page buttons on the voting record page
+
+- Allow for a search using more parameters such as MP name, City etc.
+
+- Allow for a House of Lords lookup
+
+- Show previous MP's of a Constituency
+
+- Convert to a framework
